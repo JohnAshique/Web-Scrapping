@@ -6,6 +6,8 @@ soup = BeautifulSoup(page.content, "html.parser")
 #print(soup) //works this prints the whole html code for the webpage
 allJobs = soup.find("section",class_="job_list")#//I have got all the jobs listed in this page on this line
 
+## some changes in code in main2 branch .......---------
+
 
 job_elements = allJobs.find_all("div", class_="job")
 #print(job_elements,end="\n"*2) #//prints on the jobs
