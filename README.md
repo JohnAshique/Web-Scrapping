@@ -1,3 +1,8 @@
+This is main branch 2 for example
+Created branch called -> main2
+
+
+
 # Web-Scrapping
 Extracting information from a website using Beautiful Soup library in Python
 
